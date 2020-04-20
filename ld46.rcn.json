@@ -266,6 +266,8 @@
     "  cam(); // Back to UI camera",
     "  ",
     "  // Draw available pieces UI",
+    "  print(8,102, \"Available\",10);",
+    "  print(53,8, \"Level \"+(level_index+1),3);",
     "  if(!btn(place_btn) || blink) {",
     "    let x = 8;",
     "    for(let piece of level_available_pieces) {",
